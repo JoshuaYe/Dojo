@@ -8,7 +8,7 @@ const Header = () => {
       style={{ backgroundColor: "#947F4B" }}
     >
       <Link to="/" className="item">
-        DOJO
+        
       </Link>
     </div>
   );
