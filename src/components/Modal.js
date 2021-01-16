@@ -27,7 +27,11 @@ const Modal = (props) => {
           <div className="ui form" style={{ paddingBottom: "10px" }}>
             <div className="field">
               <label>Sex</label>
-              <input type="text" />
+              <select className="ui selection dropdown">
+                <option value=""> </option>
+                <option value="1">Male</option>
+                <option value="0">Female</option>
+              </select>
             </div>
           </div>
 
@@ -35,7 +39,7 @@ const Modal = (props) => {
             <div className="field">
               <label>Master</label>
               <select className="ui selection dropdown">
-                <option value="">Master</option>
+                <option value=""></option>
                 <option value="1">Male</option>
                 <option value="0">Female</option>
               </select>
@@ -45,7 +49,7 @@ const Modal = (props) => {
             <div className="field">
               <label>Apprentice</label>
               <select className="ui selection dropdown">
-                <option value="">Apprentice</option>
+                <option value=""></option>
                 <option value="1">Male</option>
                 <option value="0">Female</option>
               </select>
