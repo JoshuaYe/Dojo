@@ -40,8 +40,10 @@ const Modal = (props) => {
               <label>Master</label>
               <select className="ui selection dropdown">
                 <option value=""></option>
-                <option value="1">Male</option>
-                <option value="0">Female</option>
+                <option value="3">Art</option>
+                <option value="2">Education</option>
+                <option value="1">Music</option>
+                <option value="0">Cooking</option>
               </select>
             </div>
           </div>
@@ -50,8 +52,10 @@ const Modal = (props) => {
               <label>Apprentice</label>
               <select className="ui selection dropdown">
                 <option value=""></option>
-                <option value="1">Male</option>
-                <option value="0">Female</option>
+                <option value="3">Art</option>
+                <option value="2">Education</option>
+                <option value="1">Music</option>
+                <option value="0">Cooking</option>
               </select>
             </div>
           </div>
