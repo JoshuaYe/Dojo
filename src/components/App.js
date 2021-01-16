@@ -8,10 +8,10 @@ import history from "../history";
 
 const App = () => {
   return (
-    <div className="ui container">
+    <div>
       <Router history={history}>
         <Header />
-        <div>
+        <div className="ui container">
           <Switch>
             <Route path="/" exact component={LandingPage} />
             <Route path="/join" exact component={JoinUs} />
