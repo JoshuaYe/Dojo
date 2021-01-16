@@ -9,13 +9,12 @@ h1{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     font-family: 'Roboto Slab', serif;
-
 }   
 
 h2{
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 49%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -24,7 +23,7 @@ h2{
 #button{
     margin: 0;
     position: absolute;
-    top: 6  0%;
+    top: 59%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); 
