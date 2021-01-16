@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div
       className="ui secondary pointing menu"
-      style={{ backgroundColor: "#947F4B" }}
+      style={{ backgroundColor: "#5c4033" }}
     ></div>
   );
 };
