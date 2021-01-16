@@ -62,7 +62,9 @@ const Modal = (props) => {
         </div>
 
         <div style={{ padding: "15px" }}>
-          <button className="ui button primary">Join</button>
+          <Link to="/video" className="ui button primary">
+            Join
+          </Link>
           <Link to="/" className="ui button">
             Cancel
           </Link>
