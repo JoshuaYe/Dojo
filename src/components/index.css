@@ -9,6 +9,7 @@ h1{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     font-family: 'Roboto Slab', serif;
+    color: white;
 }   
 
 h2{
@@ -18,6 +19,7 @@ h2{
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    color: white;
 }
 
 #button{
@@ -30,5 +32,7 @@ h2{
 }
 
 body{
-    background-image: url('kyoto.jpg');
+    background-image: url('dojobackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
