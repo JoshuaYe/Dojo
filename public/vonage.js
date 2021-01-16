@@ -28,7 +28,13 @@ function handleError(error) {
 }
 
 function initializeSession() {
-  var session = OT.initSession(apiKey, sessionId);
+  if (OT.checkSystemRequirements() == 1) {
+    var session = OT.initSession(apiKey, sessionId);
+  } else {
+    // The client does not support WebRTC.
+    // You can display your own message.
+    alert(error.message);
+  }
 
   // Subscribe to a newly created stream
   session.on("streamCreated", function (event) {
