@@ -1,12 +1,11 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import "./VideoCall.css";
 
 import { initializeSession } from "./vonage";
 
-const VideoCall = () => {
+const WatchCall = () => {
   useEffect(() => {
-    initializeSession(true);
+    initializeSession(false);
   }, []);
 
   return (
@@ -25,4 +24,4 @@ const VideoCall = () => {
   );
 };
 
-export default VideoCall;
+export default WatchCall;
