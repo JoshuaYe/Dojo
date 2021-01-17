@@ -14,6 +14,14 @@
   color: white;
 }
 
+#nav {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  padding-left: 10px;
+  padding-top: 5px;
+  display: "inline-block";
+}
+
 #headline {
   margin: 0;
   position: absolute;
@@ -35,15 +43,15 @@
   transform: translate(-50%, -50%);
 }
 
-#header{
-    height: 50px;
+#header {
+  height: 50px;
 }
 
-img{
-    margin-top: -12px;
-    margin-left: 10px;
-    height: 75px;
-    width: auto; 
+img {
+  margin-top: -12px;
+  margin-left: 10px;
+  height: 75px;
+  width: auto;
 }
 
 body {
