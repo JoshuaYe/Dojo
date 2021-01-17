@@ -4,6 +4,12 @@ html {
   height: 100%;
 }
 
+#info {
+  position: absolute;
+  bottom: 273px;
+  right: 705px;
+}
+
 #videos {
   position: relative;
   width: 100%;

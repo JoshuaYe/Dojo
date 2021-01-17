@@ -1,43 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 
-
-h1{
-    font-size: 150px;   
-    margin: 0;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 3px;
-    color: white;         
-}   
-
-h2{
-    margin: 0;
-    position: absolute;
-    top: 52%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-style: italic;
+h1 {
+  font-size: 150px;
+  margin: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 3px;
+  color: white;
 }
 
-#button{
-    margin: 0;
-    position: absolute;
-    top: 62%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); 
+#headline {
+  margin: 0;
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
 }
 
-body{
-    background-image: url('dojobackground.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+#button {
+  margin: 0;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+body {
+  background-image: url("dojobackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -14,10 +14,12 @@ const VideoCall = (props) => {
         <div id="publisher"></div>
       </div>
 
+      <br />
+
       <div
         style={{ color: "white", paddingTop: "15px", paddingBottom: "15px" }}
       >
-        <h3>
+        <h2>
           Name: {props.info[0]}
           <br />
           Age: {props.info[1]}
@@ -27,11 +29,30 @@ const VideoCall = (props) => {
           Master: {props.info[3]}
           <br />
           Apprentice: {props.info[4]}
-        </h3>
+        </h2>
       </div>
 
+      <div
+        style={{ color: "white", paddingTop: "15px", paddingBottom: "15px" }}
+        id="info"
+      >
+        <h2>
+          Name: Sarah
+          <br />
+          Age: 18
+          <br />
+          Gender: Female
+          <br />
+          Master: Music
+          <br />
+          Apprentice: Cooking
+        </h2>
+      </div>
+
+      <br />
+
       <a href="/" style={{ color: "black" }}>
-        <button className="ui button">Exit</button>
+        <button className="huge ui button red">Exit</button>
       </a>
     </div>
   );
