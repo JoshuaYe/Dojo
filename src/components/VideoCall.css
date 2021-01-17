@@ -14,8 +14,8 @@ html {
 
 #subscriber {
   position: absolute;
-  width: 460px;
-  height: 340px;
+  width: 520px;
+  height: 400px;
   bottom: 10px;
   right: 10px;
   z-index: 100;
@@ -25,8 +25,8 @@ html {
 
 #publisher {
   position: absolute;
-  width: 460px;
-  height: 340px;
+  width: 520px;
+  height: 400px;
   bottom: 10px;
   left: 10px;
   z-index: 100;
