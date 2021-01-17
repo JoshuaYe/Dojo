@@ -35,6 +35,17 @@
   transform: translate(-50%, -50%);
 }
 
+#header{
+    height: 50px;
+}
+
+img{
+    margin-top: -12px;
+    margin-left: 10px;
+    height: 75px;
+    width: auto; 
+}
+
 body {
   background-image: url("dojobackground.jpg");
   background-repeat: no-repeat;

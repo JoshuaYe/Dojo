@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./index.css";
 
 const Header = () => {
   return (
-    <div
+    <div id = "header"
       className="ui secondary pointing menu"
       style={{ backgroundColor: "#5c4033" }}
     >
