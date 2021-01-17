@@ -15,10 +15,6 @@ const VideoCall = (props) => {
     };
   }, []);
 
-  const infoList = props.info.map((i) => {
-    return <h5>{i}</h5>;
-  });
-
   return (
     <div style={{ height: "100%", paddingTop: "300px" }}>
       <div id="videos">
@@ -29,7 +25,17 @@ const VideoCall = (props) => {
       <div
         style={{ color: "white", paddingTop: "15px", paddingBottom: "15px" }}
       >
-        {infoList}
+        <h3>
+          Name: {props.info[0]}
+          <br />
+          Age: {props.info[1]}
+          <br />
+          Gender: {props.info[2]}
+          <br />
+          Master: {props.info[3]}
+          <br />
+          Apprentice: {props.info[4]}
+        </h3>
       </div>
 
       <a href="/" style={{ color: "black" }}>
