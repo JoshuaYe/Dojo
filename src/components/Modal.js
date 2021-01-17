@@ -9,7 +9,7 @@ const Modal = (props) => {
         onClick={(e) => e.stopPropagation()}
         className="ui standard modal visible active"
       >
-        <div className="header">Step into the Dojo</div>
+        <div className="header">Welcome to the Dojo</div>
 
         <div style={{ padding: "15px" }}>
           <div className="ui form" style={{ paddingBottom: "10px" }}>
@@ -62,7 +62,7 @@ const Modal = (props) => {
         </div>
 
         <div style={{ padding: "15px" }}>
-          <Link to="/video" className="ui button primary">
+          <Link to="/video" className="ui button brown">
             Join
           </Link>
           <Link to="/" className="ui button">

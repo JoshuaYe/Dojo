@@ -8,7 +8,7 @@ const LandingPage = () => {
       <h1>DOJO</h1>
       <h2>Teach what you know. Learn what you don't.</h2>
     <div id = "button">
-    <Link to={"/join"} className="ui button primary">
+    <Link to={"/join"} className="ui brown button">
         Step into the Dojo
       </Link>
     </div>
