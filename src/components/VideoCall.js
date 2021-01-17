@@ -23,9 +23,11 @@ const VideoCall = () => {
         <div id="publisher"></div>
       </div>
 
-      <Link to="/" className="ui button">
-        Exit
-      </Link>
+      <button className="ui button">
+        <a href="/" style={{ color: "black" }}>
+          Exit
+        </a>
+      </button>
     </div>
   );
 };
