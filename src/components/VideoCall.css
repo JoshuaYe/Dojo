@@ -6,8 +6,10 @@ html {
 
 #info {
   position: absolute;
-  bottom: 273px;
-  right: 705px;
+  /* bottom: 273px;
+  right: 708px; */
+  bottom: 208px;
+  right: 708px;
 }
 
 #videos {
