@@ -8,7 +8,7 @@ const VideoCall = (props) => {
   }, []);
 
   return (
-    <div style={{ height: "100%", paddingTop: "440px" }}>
+    <div style={{ height: "100%", paddingTop: "445px" }}>
       <div id="videos">
         <div id="subscriber"></div>
         <div id="publisher"></div>

@@ -29,7 +29,7 @@ const handleError = (error) => {
 };
 
 export const initializeSession = (subscribe) => {
-  if (OT.checkSystemRequirements() == 1) {
+  if (OT.checkSystemRequirements() === 1) {
     var session = OT.initSession(apiKey, sessionId);
   } else {
     // The client does not support WebRTC.
