@@ -11,7 +11,7 @@ const Header = () => {
       <a href="/">
         <img src="/ying-yang.png" alt="logo" width="100" height="auto" />
         <div style={{ float: "right" }}>
-          <h1 id="nav">Dojo</h1>
+          <h1 id="nav">DOJO</h1>
         </div>
       </a>
     </div>
