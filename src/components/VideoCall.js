@@ -1,22 +1,14 @@
 import { useEffect } from "react";
 import "./VideoCall.css";
+import { initializeSession } from "./vonage";
 
 const VideoCall = (props) => {
   useEffect(() => {
-    const script = document.createElement("script");
-
-    script.src = "vonage.js";
-    script.async = true;
-
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    };
+    initializeSession(true);
   }, []);
 
   return (
-    <div style={{ height: "100%", paddingTop: "300px" }}>
+    <div style={{ height: "100%", paddingTop: "400px" }}>
       <div id="videos">
         <div id="subscriber"></div>
         <div id="publisher"></div>
