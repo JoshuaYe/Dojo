@@ -71,11 +71,14 @@ const Modal = (props) => {
                 onChange={(event) => setMaster(event.target.value)}
               >
                 <option value="">Select an option</option>
-                <option value="Art">Art</option>
-                <option value="Dance">Dance</option>
-                <option value="Education">Education</option>
-                <option value="Music">Music</option>
+                <option value="Coding">Coding</option>
                 <option value="Cooking">Cooking</option>
+                <option value="Dance">Dance</option>
+                <option value="English">English</option>
+                <option value="Math">Math</option>
+                <option value="Music">Music</option>
+                <option value="Science">Science</option>
+                <option value="Visual Art">Visual Art</option>
               </select>
             </div>
           </div>
@@ -88,11 +91,14 @@ const Modal = (props) => {
                 onChange={(event) => setApprentice(event.target.value)}
               >
                 <option value="">Select an option</option>
-                <option value="Art">Art</option>
-                <option value="Dance">Dance</option>
-                <option value="Education">Education</option>
-                <option value="Music">Music</option>
+                <option value="Coding">Coding</option>
                 <option value="Cooking">Cooking</option>
+                <option value="Dance">Dance</option>
+                <option value="English">English</option>
+                <option value="Math">Math</option>
+                <option value="Music">Music</option>
+                <option value="Science">Science</option>
+                <option value="Visual Art">Visual Art</option>
               </select>
             </div>
           </div>
