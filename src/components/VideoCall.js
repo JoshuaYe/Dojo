@@ -1,8 +1,7 @@
 import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import "./VideoCall.css";
 
-const VideoCall = () => {
+const VideoCall = (props) => {
   useEffect(() => {
     const script = document.createElement("script");
 
@@ -16,6 +15,10 @@ const VideoCall = () => {
     };
   }, []);
 
+  const infoList = props.info.map((i) => {
+    return <h5>{i}</h5>;
+  });
+
   return (
     <div style={{ height: "100%", paddingTop: "300px" }}>
       <div id="videos">
@@ -23,11 +26,15 @@ const VideoCall = () => {
         <div id="publisher"></div>
       </div>
 
-      <button className="ui button">
-        <a href="/" style={{ color: "black" }}>
-          Exit
-        </a>
-      </button>
+      <div
+        style={{ color: "white", paddingTop: "15px", paddingBottom: "15px" }}
+      >
+        {infoList}
+      </div>
+
+      <a href="/" style={{ color: "black" }}>
+        <button className="ui button">Exit</button>
+      </a>
     </div>
   );
 };

@@ -4,7 +4,12 @@ import history from "../history";
 
 class JoinUs extends React.Component {
   render() {
-    return <Modal onDismiss={() => history.push("/")} />;
+    return (
+      <Modal
+        onSubmit={this.props.onSubmit}
+        onDismiss={() => history.push("/")}
+      />
+    );
   }
 }
 
